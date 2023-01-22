@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tea house</title>
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/80133de64f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header class="container mx-auto my-16">
+        <div class="flex justify-between px-16 py-8">
+            <div>
+                <h1 class="leading-20 text-7xl font-semibold mb-8">It's good <br> tea time at The <br>Tea House</h1>
+                <p class="mb-8 leading-8 text-gray-600">Tea and Botanical Solutions Supplier Give Optimum <br>
+                    Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] py-3 px-5 rounded text-white">Explore More
+                    <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div>
+                <img class="mt-8" src="images/banner.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container mx-auto">
+            <div class="w-2/3 text-center mx-auto">
+                <h1 class="text-5xl font-semibold mb-8">Our Featured Products</h1>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour, or randomised words which don't look even
+                    slightly believable. </p>
+            </div>
+            <!-- catagoris card section -->
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+                <div class="w-4/4 bg-gray-100 rounded-lg m-5">
+                    <img class="mx-auto my-8 " src="images/tea-1.png" alt="">
+                    <h2 class="text-2xl font-semibold text-center">Milk Tea</h2>
+                    <p class="text-center my-5 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <div class="w-4/4 bg-gray-100 rounded-lg m-5">
+                    <img class="mx-auto my-8 " src="images/tea-2.png" alt="">
+                    <h2 class="text-2xl font-semibold text-center">Black Tea</h2>
+                    <p class="text-center my-5 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <div class="w-4/4 bg-gray-100 rounded-lg m-5">
+                    <img class="mx-auto my-8 " src="images/tea-3.png" alt="">
+                    <h2 class="text-2xl font-semibold text-center">Lemon Tea</h2>
+                    <p class="text-center my-5 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <div class="w-4/4 bg-gray-100 rounded-lg m-5">
+                    <img class="mx-auto my-8 " src="images/tea-4.png" alt="">
+                    <h2 class="text-2xl font-semibold text-center">Green Tea</h2>
+                    <p class="text-center my-5 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto mt-32">
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-10 p-8">
+                <div class="grid grid-cols-2 grid-rows-3 gap-6">
+                    <div class=" bg-red-200 w-83 h-40 rounded-lg">
+
+                    </div>
+                    <div class=" w-83 bg-yellow-50 rounded-lg row-span-2">
+                        <div class="flex justify-center align-center">
+                            <img class="mx-auto mt-9" src="images/fresh-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class=" w-83 bg-gray-50 rounded-lg row-span-2">
+                        <div class="flex justify-center align-center">
+                            <img class="mx-auto mt-9" src="images/fresh-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-83 bg-gray-100 rounded-lg">
+
+                    </div>
+                </div>
+                <div class="px-16">
+                    <h1 class="text-4xl font-bold mb-5">Great Tea, Freshly <br> Presented</h1>
+                    <p class="text-4 mb-8 ">
+                        The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.
+                    </p>
+                    <h3 class="text-4xl font-bold mb-9 "> Unique Test </h3>
+                    <p class="text-4 mb-8 ">
+                        A Unique and different style from other teapots gives a <br> luxurious and minimalist impression
+                    </p>
+                    <h3 class="text-4xl font-bold mb-8">
+                        Premium Quality
+                    </h3>
+                    <p class="text-4 ">
+                        Premium Quality that makes tea more elegant and more durable when you use it.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto mt-32">
+            <div class=" bg-gradient-to-r from-[#FF8938] to-[#FF0000] h-auto rounded-xl">
+                <div class="grid grid-cols-2">
+                    <div class="mx-20 my-40 flex justify-center items-center">
+                        <div>
+                            <h1 class="text-5xl text-white font-semibold  mb-5">
+                                Meet Our Super <br> Clients </h1>
+                           
+                            <p class="leading-7 text-white mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                            <button class="bg-white text-[#FF8938] py-4 px-8 rounded-lg font-bold">Show All</button>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
